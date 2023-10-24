@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class ClawMachineV3 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String nama = input.nextLine();
+        int saldo = input.nextInt();
+        int hargaTiket = input.nextInt();
+        input.nextLine();
+        String barang1 = input.nextLine();
+        String barang2 = input.nextLine();
+        String barang3 = input.nextLine();
+        String barang4 = input.nextLine();
+        
+        System.out.printf("Halo %s%n", nama);
+        System.out.printf("Saldo awal = Rp. %d%n", saldo);
+        System.out.printf("Harga tiket = Rp. %d%n", hargaTiket);
+        System.out.println("-".repeat(30));
+        
+        while (true) {
+            String perintah = input.next();
+            if (perintah.equalsIgnoreCase("selesai")) {
+                break;
+            } else {
+                int inputBarang = input.nextInt();
+                if (saldo >= hargaTiket) {
+                    if (inputBarang == 1) {
+                        System.out.printf("Anda mendapatkan %s%n", barang1);
+                        saldo -= hargaTiket;
+                        System.out.printf("Sisa saldo = Rp. %d%n", saldo);
+                        System.out.println("-".repeat(30));
+                    } else if (inputBarang == 2) {
+                        System.out.printf("Anda mendapatkan %s%n", barang2);
+                        saldo -= hargaTiket;
+                        System.out.printf("Sisa saldo = Rp. %d%n", saldo);
+                        System.out.println("-".repeat(30));
+                    } else if (inputBarang == 3) {
+                        System.out.printf("Anda mendapatkan %s%n", barang3);
+                        saldo -= hargaTiket;
+                        System.out.printf("Sisa saldo = Rp. %d%n", saldo);
+                        System.out.println("-".repeat(30));
+                    } else if (inputBarang == 4) {
+                        System.out.printf("Anda mendapatkan %s%n", barang4);
+                        saldo -= hargaTiket;
+                        System.out.printf("Sisa saldo = Rp. %d%n", saldo);
+                        System.out.println("-".repeat(30));
+                    } else {
+                        System.out.println("Anda belum beruntung");
+                        saldo -= hargaTiket;
+                        System.out.printf("Sisa saldo = Rp. %d%n", saldo);
+                        System.out.println("-".repeat(30));
+                    }
+                } else {
+                    System.out.println("Maaf saldo tidak cukup");
+                    break;
+                }
+            }
+        }
+        System.out.println("Permainan selesai");
+    }
+}
