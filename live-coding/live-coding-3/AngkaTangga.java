@@ -1,3 +1,12 @@
+/*
+Buatlah tangga menurun ke kanan yang di setiap baris 
+dan kolom berisi angka dari 0-9 menaik dan setelah 
+angka 9 kembali lagi ke 0 dan terus berulang sampai 
+membentuk tangga dengan ukuran yang ditentukan oleh 
+user yaitu n. Angka tersebut berjalan secara horizontal 
+dulu yang dipisahkan 1 spasi baru kemudian vertikal.
+*/
+
 import java.util.Scanner;
 
 public class AngkaTangga {

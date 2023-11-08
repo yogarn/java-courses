@@ -1,3 +1,21 @@
+/*
+Dalam suatu permainan Claw Machine terdapat 4 hadiah. Pemain diharuskan 
+membayar tiket masuk sesuai dengan harga yang telah ditentukan sistem 
+untuk bisa bermain dan mendapatkan salah satu dari 4 hadiah di atas. 
+Pemain akan bermain berkali-kali selama saldonya cukup. Permainan 
+berakhir ketika ketika saldo kurang atau pemain mengetik selesai. 
+Kalian ditugaskan untuk membuat program yang akan digunakan pada Claw 
+Machine ini untuk memasukkan nama, saldo, harga tiket, dan 4 
+hadiah-hadiah yang dapat diambil pada mesin. Untuk ketentuan input dan 
+output dapat dilihat bagian Input Format dan Output Format. Untuk fungsi 
+yang dapat diinput ketika bermain :
+
+ambil <x> di mana x adalah bilangan untuk mengambil (mencapit) hadiah 
+sesuai urutan saat diinputkan.
+
+selesai adalah fungsi untuk mengakhiri permainan.
+*/
+
 import java.util.Scanner;
 
 public class ClawMachineV3 {
