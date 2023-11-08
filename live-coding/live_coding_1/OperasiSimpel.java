@@ -1,3 +1,11 @@
+/*
+Andi diberi tugas untuk membuat aplikasi yang dapat melakukan operasi aritmatika 
+sederhana. Operasi tersebut adalah penjumlahan, pengurangan, perkalian, pembagian 
+(dibulatkan ke bawah), dan modulo. Pada aplikasi tereebut, user diminta memasukkan 
+2 angka untuk dilakukan operasi. Bantulah Andi agar dapat membuat program untuk 
+melakukan kelima operasi di atas.
+*/
+
 import java.util.Scanner;
 
 public class OperasiSimpel {
