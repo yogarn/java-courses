@@ -28,5 +28,6 @@ public class CariKata {
             System.out.printf("%s tidak ditemukan\n", kataTarget);
             System.out.printf("Jumlah kata ditemukan = %d\n", counter);
         }
+        input.close();
     }
 }
