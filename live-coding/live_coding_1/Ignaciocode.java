@@ -1,3 +1,10 @@
+/*
+Dalam suatu permaianan "Ignaciocode", terdapat kartu yang berisikan kode unik. 
+Kalian ditugaskan untuk menggabungkan kode unik dari beberapa bagian terpisah. 
+Perhatikan aturan yang tersedia untuk dapat menggunakan kode unik tersebut 
+dalam permainan.
+*/
+
 import java.util.Scanner;
 
 public class Ignaciocode {
