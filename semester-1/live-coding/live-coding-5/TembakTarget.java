@@ -52,5 +52,7 @@ public class TembakTarget {
                 System.out.println();
             }
         }
+
+        input.close();
     }
 }
